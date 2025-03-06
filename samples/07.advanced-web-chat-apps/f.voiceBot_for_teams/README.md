@@ -137,9 +137,15 @@ To host this demo, you will need to clone the code and run locally.
    1.  Click oln Personal app" section, click "Add a tab"
       1. For "Name", enter "My Company"
       1. For "Entity ID", enter "webchat"
-      1. For "Content URL", enter `https://a1b2c3d4.ngrok.io/`
-         -  This URL will be based on the ngrok tunnel you create in "[Start ngrok tunnel](#start-ngrok-tunnel)" section
+      1. For "Content URL", 
+         - If you are testing with local application , enter `https://a1b2c3d4.ngrok.io/`
+            -  This URL will be based on the ngrok tunnel you create in "[Start ngrok tunnel](#start-ngrok-tunnel)" section
+         - If you are using already hosted application, enter hosted application url.
       1. Click "Save" button
+1. User consent to access mic from "Device Permissions"
+   1. Cilck on "Permissions" section
+   1. Tick the checkbox for "Use the camera, microphone, and speakers" 
+   1. Under "User Permission" -> "Delegated" section, Tick checkBox for "MicrophoneStream.Read.User" permission.
 1. Under "Test and distribute" of "Finish" section
    1. Click "Install" button
    1. On the "Web Chat SSO" dialog, click "Install" button again
